@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'isoEngine' target in the 'isoEngine' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
