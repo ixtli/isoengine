@@ -9,6 +9,7 @@
 #import "isoGLView.h"
 
 #include "../app/app.h"
+#include "../gl/renderer.h"
 
 @interface isoGLView (PrivateMethods)
 - (void) initGL;
@@ -105,6 +106,7 @@ static CVReturn displayLinkCallback(CVDisplayLinkRef displayLink,
                        forParameter:NSOpenGLCPSwapInterval];
     
     Application::instance()->init();
+    Renderer::instance()->init();
 }
 
 - (void) dealloc
