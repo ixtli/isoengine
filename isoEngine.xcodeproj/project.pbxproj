@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A35D3D0D16C5770100076A51 /* app.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A35D3D0B16C5770100076A51 /* app.cpp */; };
+		A35D3D1416C583DB00076A51 /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A35D3D1216C583DB00076A51 /* log.cpp */; };
+		A35D3D1916C586D500076A51 /* isoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A35D3D1616C586D500076A51 /* isoAppDelegate.m */; };
+		A35D3D1A16C586D500076A51 /* isoGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A35D3D1816C586D500076A51 /* isoGLView.mm */; };
+		A35D3D1D16C58B6300076A51 /* renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A35D3D1B16C58B6300076A51 /* renderer.cpp */; };
 		A39B47FB16B4872600F349C8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39B47FA16B4872600F349C8 /* Cocoa.framework */; };
 		A39B480516B4872600F349C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A39B480316B4872600F349C8 /* InfoPlist.strings */; };
 		A39B480716B4872600F349C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B480616B4872600F349C8 /* main.m */; };
 		A39B480B16B4872600F349C8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A39B480916B4872600F349C8 /* Credits.rtf */; };
-		A39B480E16B4872600F349C8 /* isoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B480D16B4872600F349C8 /* isoAppDelegate.m */; };
 		A39B481116B4872600F349C8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A39B480F16B4872600F349C8 /* MainMenu.xib */; };
+		A39B481C16B4A13000F349C8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39B481B16B4A13000F349C8 /* QuartzCore.framework */; };
+		A39B481E16B4A13B00F349C8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39B481D16B4A13B00F349C8 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A35D3D0B16C5770100076A51 /* app.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = app.cpp; path = app/app.cpp; sourceTree = "<group>"; };
+		A35D3D0C16C5770100076A51 /* app.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = app.h; path = app/app.h; sourceTree = "<group>"; };
+		A35D3D1216C583DB00076A51 /* log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = log.cpp; path = app/log.cpp; sourceTree = "<group>"; };
+		A35D3D1316C583DB00076A51 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = log.h; path = app/log.h; sourceTree = "<group>"; };
+		A35D3D1516C586D500076A51 /* isoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = isoAppDelegate.h; path = osx/isoAppDelegate.h; sourceTree = "<group>"; };
+		A35D3D1616C586D500076A51 /* isoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = isoAppDelegate.m; path = osx/isoAppDelegate.m; sourceTree = "<group>"; };
+		A35D3D1716C586D500076A51 /* isoGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = isoGLView.h; path = osx/isoGLView.h; sourceTree = "<group>"; };
+		A35D3D1816C586D500076A51 /* isoGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = isoGLView.mm; path = osx/isoGLView.mm; sourceTree = "<group>"; };
+		A35D3D1B16C58B6300076A51 /* renderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = renderer.cpp; path = gl/renderer.cpp; sourceTree = "<group>"; };
+		A35D3D1C16C58B6300076A51 /* renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = renderer.h; path = gl/renderer.h; sourceTree = "<group>"; };
 		A39B47F616B4872600F349C8 /* isoEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = isoEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39B47FA16B4872600F349C8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A39B47FD16B4872600F349C8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -26,9 +42,9 @@
 		A39B480616B4872600F349C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A39B480816B4872600F349C8 /* isoEngine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "isoEngine-Prefix.pch"; sourceTree = "<group>"; };
 		A39B480A16B4872600F349C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		A39B480C16B4872600F349C8 /* isoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = isoAppDelegate.h; sourceTree = "<group>"; };
-		A39B480D16B4872600F349C8 /* isoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = isoAppDelegate.m; sourceTree = "<group>"; };
 		A39B481016B4872600F349C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A39B481B16B4A13000F349C8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A39B481D16B4A13B00F349C8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A39B481E16B4A13B00F349C8 /* OpenGL.framework in Frameworks */,
+				A39B481C16B4A13000F349C8 /* QuartzCore.framework in Frameworks */,
 				A39B47FB16B4872600F349C8 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,6 +61,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A35D3D0716C576A000076A51 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				A35D3D0B16C5770100076A51 /* app.cpp */,
+				A35D3D0C16C5770100076A51 /* app.h */,
+				A35D3D1216C583DB00076A51 /* log.cpp */,
+				A35D3D1316C583DB00076A51 /* log.h */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+		A35D3D0816C576A400076A51 /* gl */ = {
+			isa = PBXGroup;
+			children = (
+				A35D3D1B16C58B6300076A51 /* renderer.cpp */,
+				A35D3D1C16C58B6300076A51 /* renderer.h */,
+			);
+			name = gl;
+			sourceTree = "<group>";
+		};
+		A35D3D0916C576A900076A51 /* game */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = game;
+			sourceTree = "<group>";
+		};
+		A35D3D0A16C576AC00076A51 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = menu;
+			sourceTree = "<group>";
+		};
+		A35D3D0E16C5837E00076A51 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				A35D3D1516C586D500076A51 /* isoAppDelegate.h */,
+				A35D3D1616C586D500076A51 /* isoAppDelegate.m */,
+				A35D3D1716C586D500076A51 /* isoGLView.h */,
+				A35D3D1816C586D500076A51 /* isoGLView.mm */,
+			);
+			name = osx;
+			sourceTree = "<group>";
+		};
 		A39B47EB16B4872600F349C8 = {
 			isa = PBXGroup;
 			children = (
@@ -63,7 +126,9 @@
 		A39B47F916B4872600F349C8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A39B481B16B4A13000F349C8 /* QuartzCore.framework */,
 				A39B47FA16B4872600F349C8 /* Cocoa.framework */,
+				A39B481D16B4A13B00F349C8 /* OpenGL.framework */,
 				A39B47FC16B4872600F349C8 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -82,10 +147,13 @@
 		A39B480016B4872600F349C8 /* isoEngine */ = {
 			isa = PBXGroup;
 			children = (
-				A39B480C16B4872600F349C8 /* isoAppDelegate.h */,
-				A39B480D16B4872600F349C8 /* isoAppDelegate.m */,
-				A39B480F16B4872600F349C8 /* MainMenu.xib */,
+				A35D3D0E16C5837E00076A51 /* osx */,
+				A35D3D0A16C576AC00076A51 /* menu */,
+				A35D3D0916C576A900076A51 /* game */,
+				A35D3D0816C576A400076A51 /* gl */,
+				A35D3D0716C576A000076A51 /* app */,
 				A39B480116B4872600F349C8 /* Supporting Files */,
+				A39B480F16B4872600F349C8 /* MainMenu.xib */,
 			);
 			path = isoEngine;
 			sourceTree = "<group>";
@@ -168,7 +236,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A39B480716B4872600F349C8 /* main.m in Sources */,
-				A39B480E16B4872600F349C8 /* isoAppDelegate.m in Sources */,
+				A35D3D0D16C5770100076A51 /* app.cpp in Sources */,
+				A35D3D1416C583DB00076A51 /* log.cpp in Sources */,
+				A35D3D1916C586D500076A51 /* isoAppDelegate.m in Sources */,
+				A35D3D1A16C586D500076A51 /* isoGLView.mm in Sources */,
+				A35D3D1D16C58B6300076A51 /* renderer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +333,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "isoEngine/isoEngine-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_NEWLINE = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "isoEngine/isoEngine-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -273,6 +350,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "isoEngine/isoEngine-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_NEWLINE = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "isoEngine/isoEngine-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -298,6 +380,7 @@
 				A39B481616B4872600F349C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

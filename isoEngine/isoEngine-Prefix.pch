@@ -5,3 +5,11 @@
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>
 #endif
+
+
+// A macro to disallow the copy constructor and operator "=" fxns
+// Put it in the private: decls
+
+#define DISALLOW_COPY_AND_ASSIGN(TypeName)  \
+    TypeName(const TypeName&);              \
+    void operator=(const TypeName&)
